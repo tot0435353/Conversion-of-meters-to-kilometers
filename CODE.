@@ -1,0 +1,9 @@
+function metersToKilometers(meters) {
+  return meters / 1000;
+}
+This function takes a single argument meters, which represents the distance in meters that you want to convert to kilometers. It then divides this value by 1000 (since there are 1000 meters in a kilometer) and returns the result.
+
+You can use this function in your code like this:
+const distanceInMeters = 5000;
+const distanceInKilometers = metersToKilometers(distanceInMeters);
+console.log(distanceInKilometers); // Output: 5
